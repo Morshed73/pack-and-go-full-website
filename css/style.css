@@ -1,0 +1,663 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:opsz,wght@6..12,200;6..12,300;6..12,400;6..12,500;6..12,600;6..12,700;6..12,800;6..12,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700;800&display=swap');
+*{
+        margin: 0;      
+        padding: 0;
+        outline: 0;
+        box-sizing: border-box;
+}
+a {
+        text-decoration: none;
+        display: inline-block;
+}
+ul,ol {
+        list-style: none;
+        margin: 0;
+        padding: 0;
+}
+.common-button {
+        padding: 16px 35px;
+        color: #ffffff;
+        font-size: 16px;
+        font-weight: 600;
+        font-family: 'Poppins', sans-serif;
+        border-radius: 17px;
+        background-color: #007F5F;
+        border: none;
+        transition: all linear .3s;
+}
+.common-button:hover {
+        box-shadow: 1px 1px 12px 1px #007F5F;
+}
+p{
+        font-family: 'Poppins', sans-serif;
+}
+.sub-heading{
+        padding: 40px 0 20px 0;
+        color: #1e1e1e;
+        font-size: 25px;
+        font-weight: 500;
+        font-family: 'Poppins', sans-serif;
+        line-height: 24px;
+}
+.common-sub-heading{
+        font-size: 40px;
+        font-weight: 600;
+        color: #1e1e1e;
+        font-family: 'Poppins', sans-serif;
+        padding-bottom: 20px;
+}
+/* ==========================
+        common css end
+========================== */
+/* ==========================
+        header start
+========================== */
+.main-menu {
+        padding: 41px 0 !important;
+}
+.main-menu ul {
+        margin-top: 0 !important;
+        gap: 42px;
+}
+.main-menu ul li a {
+        color: #ffffff;
+        font-size: 16px;
+        font-weight: 400;
+        font-family: 'Poppins', sans-serif;
+}
+/* ==========================
+        header end
+========================== */
+/* ==========================
+        banner start
+========================== */
+#banner {
+        padding: 147px 0 122px 0;
+        position: relative;
+        z-index: 1;
+}
+#banner::after {
+        content: '';
+        position: absolute;
+        left: 0;
+        top: 0;
+        width: 100%;
+        height: 100%;
+        background: rgba(0, 0, 0, 0.40);
+        z-index: -1;
+}
+#banner .banner-text h1{
+        font-size: 65px;
+        font-weight: 600;
+        font-family: 'Poppins', sans-serif;
+        color: #ffffff;
+        line-height: 80px;
+        width: 573px;
+}
+#banner .banner-text p{
+        font-size: 16px;
+        font-weight: 400;
+        font-family: 'Poppins', sans-serif;
+        color: #ffffff;
+        line-height: 30px;
+        margin: 30px 0 40px 0;
+        width: 573px;
+}
+.banner-search{
+        margin-top: 60px;
+        padding: 24px 25px;
+        background-color: #ffffff;
+        border-radius: 17px;
+}
+.banner-search .search-item{
+        display: flex;
+        width: fit-content;
+}
+.banner-search .search-item .item{
+        padding: 11px 30px 11px 0;
+}
+.banner-search .search-item .item h4{
+        font-size: 20px;
+        font-weight: 700;
+        font-family: 'Nunito Sans', sans-serif;
+        color: #292929;
+        line-height: 26px;
+
+}
+.banner-search .search-item .item h4 .search-text{
+        padding: 0 20px 0 10px;
+}
+.banner-search .search-item .item input{
+        font-size: 16px;
+        font-weight: 400;
+        font-family: 'Nunito Sans', sans-serif;
+        color: #6a6a6a;
+        border: none;
+        line-height: 26px;
+        margin-left: 26px;
+}
+.banner-search .search-item .item .drop-icon{
+        cursor: pointer;
+}
+.banner-search .search-item .search-button{
+        background-color: #007F5F;
+        border: none;
+        border-radius: 10px;
+        color: #ffffff;
+        padding: 30px;
+}
+/* ==========================
+        banner end
+========================== */
+/* ==========================
+        benefit start
+========================== */
+.common-heading{
+        text-align: center;
+        padding: 150px 0;
+}
+.common-heading h2{
+        font-size: 40;
+        font-weight: 600;
+        font-family: 'Poppins', sans-serif;
+        color: #1e1e1e;
+        line-height: auto;
+}
+.common-heading p{
+        font-size: 16px;
+        font-weight: 400;
+        font-family: 'Poppins', sans-serif;
+        color: #616161;
+        padding-top: 20px;
+        line-height: 30px;
+}
+#benefit .benefit-item{
+        padding: 62px 114px 62px 45px;
+        border-radius: 14px;
+}
+#benefit .benefit-item:hover{
+        box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.20);
+}
+#benefit .benefit-item .icon{
+        background-color: rgba(0, 127, 95, 0.10);
+        padding: 18px 22px;
+        width: fit-content;
+        border-radius: 14px;
+}
+#benefit .benefit-item p{
+        color: #616161;
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 30px;
+}
+/* ==========================
+        benefit end
+========================== */
+/* ==========================
+        destination start
+========================== */
+.destination-slider{
+        margin-top: 30px;
+}
+.destination-slider .slider-item{
+        padding: 20px 20px 42px;
+        margin: 3px 15px;
+        border-radius: 15px;
+}
+.destination-slider .slider-item .slider-img{
+        border-radius: 14px;
+}
+.destination-slider .slick-center{
+        box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.20);
+}
+.destination-slider .slider-item .common-button{
+        background-color: #ffffff;
+        color: #007F5F;
+        border: #007F5F 1px solid;
+        transition: all linear .3s;
+}
+.destination-slider .slider-item .common-button:hover{
+        background-color: #007F5F;
+        color: #ffffff;
+}
+.destination-slider .slider-item .review{
+        display: flex;
+        gap: 10px;
+        padding: 37px 0 17px 0;
+}
+.destination-slider .slider-item .review p{
+        color: #FF8B00;
+}
+.destination-slider .slider-item .search-text p{
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 30px;
+        color: #616161;
+}
+.destination-slider .slider-item .review ul{
+        display: flex;
+        gap: 6px;
+}
+.destination-slider .slider-item .review ul li i{
+        color: #dddddd;
+}
+.destination-slider .slider-item .slider-text .sub-heading{
+        padding-top: 0;
+}
+.destination-slider .slider-item .slider-text .slider-price{
+        font-size: 20px;
+        font-weight: 600;
+}
+/* ==========================
+        destination end
+========================== */
+/* ==========================
+     number counter start
+========================== */
+#count{
+        background-color: rgba(30, 30, 30, 0.05);
+        margin-top: 150px;
+}
+#count p{
+        font-size: 16px;
+        font-weight: 400px;
+        line-height: 30px;
+        color: #616161;
+}
+.discover-checks{
+        padding: 210px 0;
+}
+.discover-checks .checks{
+        display: flex;
+        gap: 10px;
+}
+.discover-checks .checks i{
+        color: #007F5F;
+        line-height: 30px;
+}
+.discover-checks button{
+        margin-top: 40px;
+}
+.counter-items{
+        padding: 150px 0;
+}
+.counter-item{
+        padding-bottom: 30px;
+}
+.counter-item .count-item{
+        padding: 62px 32px;
+        background-color: #ffffff;
+        border-radius: 17px;
+        transition: all linear .3s;
+}
+.counter-item .count-item:hover{
+        background-color: #007F5F;
+}
+.counter-item .count-item .count-icon{
+        padding: 22px 20px;
+        background-color: rgba(0, 127, 95, 0.10);
+        width: fit-content;
+        border-radius: 14px;
+        transition: all linear .3s;
+}
+.counter-items .count-item:hover .count-icon{
+        background-color: #ffffff;
+}
+.counter-item .count-item h4{
+        font-size: 40px;
+        font-weight: 600;
+        font-family: 'Poppins', sans-serif;
+        color: #1e1e1e;
+        margin-top: 20px;
+        letter-spacing: 0.2px;
+        transition: all linear .3s;
+}
+.counter-item .count-item:hover h4{
+        color: #ffffff;
+}
+#count .counter-item .count-item p{
+        font-size: 25px;
+        font-weight: 500px;
+        letter-spacing: 0.2px;
+        color: #616161;
+        transition: all linear .3s;
+}
+#count .counter-item .count-item:hover p{
+        color: #ffffff;
+}
+/* ==========================
+      number counter end
+========================== */
+/* ==========================
+        facility start
+========================== */
+#facility{
+        padding: 150px 0;
+}
+#facility .facility-item:nth-child(2){
+        padding: 70px 0;
+}
+#facility .facility-item:nth-child(3) .facility-text{
+        padding-top: 20px;
+}
+.facility-text{
+        padding: 120px 0 40px 0;
+}
+#facility .facility-text:nth-child(3){
+        padding: 20px;
+}
+.facility-text p{
+        font-size: 16px;
+        font-weight: 400px;
+        line-height: 30px;
+        color: #616161;
+}
+.facility-check{
+        display: flex;
+}
+.facility-check i{
+        color: #007F5F;
+        line-height: 30px;
+        padding-right: 10px;
+}
+.facility-check p{
+        font-size: 16px;
+        font-weight: 400px;
+        line-height: 30px;
+        color: #616161;
+}
+.facility-img{
+        position: relative;
+}
+.recommend{
+        width: 350px;
+        position: absolute;
+        left: 0;
+        top: 490px;
+}
+.facility-item .facility-img .facility-msg{
+        position: absolute;
+        top: 415px;
+        left: 57px;
+}
+.facility-item .facility-accordion{
+        width: 420px;
+}
+.facility-item .accordion-item .accordion-button:not(.collapsed){
+        background-color: rgba(0, 127, 95, 0.10);
+        box-shadow: none;
+}
+.facility-item .accordion-item{
+        border: none;
+        box-shadow: none;
+        border-radius: 14px;
+        overflow: hidden;
+}
+.facility-item .accordion-item .accordion-header{
+        color: #1e1e1e;
+        font-size: 17px;
+        font-weight: 500;
+        font-family: 'Poppins', sans-serif;
+        line-height: 18px;
+}
+.facility-item .accordion-item .accordion-button .accordion-circle{
+        margin-right: 11px;
+        height: 20px;
+        width: 18px;
+        border: #616161 2px solid;
+        border-radius: 50%;
+}
+.facility-item .accordion-item .accordion-button:not(.collapsed) .accordion-circle{
+        background-color: #007F5F;
+        border: #007F5F 2px solid;
+}
+.facility-item .accordion-item .accordion-body{
+        background-color: rgba(0, 127, 95, 0.10);
+        font-size: 16px;
+        font-weight: 400px;
+        font-family: 'Open Sans', sans-serif;
+        line-height: 28px;
+        color: #616161;
+}
+/* ==========================
+        facility end
+========================== */
+/* ==========================
+        explore start
+========================== */
+.explore-heading{
+        font-size: 40px;
+        font-weight: 600;
+        font-family: 'Poppins', sans-serif;
+        color: #1e1e1e;
+}
+.explore-text{
+        font-size: 16px;
+        font-weight: 400;
+        color: #616161;
+        line-height: 30px;
+        margin-top: 20px;
+        margin-bottom: 30px;
+}
+.tab-buttons{
+        gap: 16px;
+        border-bottom: none;
+}
+.nav-tabs .nav-link {
+        margin-bottom: 0;
+        border: none;
+        padding: 16px 35px;
+        background-color: #F3F3F3;
+        border-radius: 17px;
+        font-size: 16px;
+        font-weight: 500;
+        color: #616161;
+        font-family: 'Poppins', sans-serif;
+}
+.nav-tabs .nav-link.active{
+        background-color: #007F5F;
+        color: #ffffff;
+}
+.tab-slider .slider-item{
+        margin: 100px 20px 0;
+        padding: 20px 20px 30px;
+        border-radius: 14px;
+}
+.tab-slider .slider-item .review{
+        margin-top: 30px;
+        display: flex;
+}
+.tab-slider .slider-item .review p{
+        margin-left: 10px;
+        color: #FF8B00;
+}
+.tab-slider .slick-current{
+        box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.20);
+}
+.tab-slider .slick-dots{
+        font-size: 0;
+        display: flex;
+        gap: 14px;
+        justify-content: center;
+        margin-top: 43px;
+}
+.tab-slider .slick-dots button{
+        background-color: #D6D2D2;
+        border: none;
+        height: 11px;
+        width: 11px;
+        border-radius: 50%;
+}
+.tab-slider .slick-dots .slick-active button{
+        background-color: #007F5F;
+}
+/* ==========================
+        explore end
+========================== */
+/* ==========================
+        testimonial start
+========================== */
+#testimonial{
+        margin-top: 265px;
+}
+.testimonial-images{
+        position: relative;
+        height: 774px;
+        width: 644px;
+        margin: -250px 0 0 -55px;
+}
+.testimonial-images img{
+        position: absolute;
+}
+.testimonial-images .img-one img{
+        top: 125px;
+        left: 436px;
+        height: 115px;
+        width: 115px;
+}
+.testimonial-images .img-two img{
+        height: 80px;
+        width: 80px;
+        top: 330px;
+        left: 294px;
+}
+.testimonial-images .img-three img{
+        height: 123px;
+        width: 123px;
+        top: 353px;
+}
+.testimonial-images .img-four img{
+        height: 84px;
+        width: 84px;
+        top: 480px;
+        left: 497px;
+}
+.testimonial-images .img-five img{
+        height: 107px;
+        width: 107px;
+        top: 542px;
+        left: 228px;
+}
+.testimonial-text h2{
+        font-size: 40px;
+        font-weight: 600;
+        font-family: 'Poppins', sans-serif;
+        color: #1e1e1e;
+}
+.testimonial-text i{
+        color: #007F5F;
+        font-size: 35px;
+        margin: 21px 0 14px;
+}
+.testimonial-text p{
+        font-size: 16px;
+        font-weight: 400;
+        color: #616161;
+        line-height: 30px;
+}
+.testimonial-text h4{
+        font-size: 20px;
+        font-weight: 600;
+        font-family: 'Poppins', sans-serif;
+        color: #1e1e1e;
+        line-height: 30px;
+}
+/* ==========================
+        testimonial end
+========================== */
+/* ==========================
+        subscribe start
+========================== */
+.subscribe-item{
+        padding: 150px 0;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+}
+.subscribe-text{
+        width: 565px;
+        text-align: center;
+}
+.subscribe-text h2{
+        color: #ffffff;
+        font-size: 40px;
+        font-weight: 600;
+        font-family: 'Poppins', sans-serif;
+}
+.subscribe-text p{
+        color: #ffffff;
+        font-size: 16px;
+        font-weight: 400;
+        font-family: 'Poppins', sans-serif;
+        line-height: 30px;
+}
+.subscribe-input{
+        height: 100px;
+        width: 770px;
+        background-color: #ffffff;
+        border-radius: 17px;
+        display: flex;
+        justify-content: space-between;
+        padding: 9px 11px;
+}
+.subscribe-input input{
+        border: none;
+        padding: 0 10px;
+}
+/* ==========================
+        subscribe end
+========================== */
+/* ==========================
+        footer start
+========================== */
+#footer{
+        padding: 150px 0 105px;
+}
+.footer-contact .footer-logo{
+        height: 68px;
+        width: 214px;
+}
+.footer-contact .footer-social{
+        padding: 40px 0 46px;
+        display: flex;
+        justify-content: space-between;
+}
+.footer-contact .footer-social img{
+        height: 48px;
+        width: 48px;
+}
+.footer-contact .contact-info p{
+        color: #616161;
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 30px;
+        font-family: 'Poppins', sans-serif;
+}
+.footer-item{
+        padding: 0 40px;
+}
+.footer-sub-heading{
+        color: #1e1e1e;
+        font-size: 25px;
+        font-weight: 600;
+        font-family: 'Poppins', sans-serif;
+}
+.footer-list p{
+        color: #616161;
+        font-size: 16px;
+        font-weight: 400;
+        font-family: 'Poppins', sans-serif;
+        line-height: 50px;
+}
+/* ==========================
+        footer end
+========================== */
+
+/* ==========================
+        destination start
+========================== */
+/* ==========================
+        destination end
+========================== */

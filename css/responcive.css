@@ -1,0 +1,838 @@
+@media (max-width: 575px) {
+    /* ========= navbar start ========== */
+    .main-menu {
+        padding: 15px 0 !important;
+    }
+    .main-logo {
+        width: 110px;
+    }
+    .navbar-collapse {
+        text-align: center;
+    }
+    .main-menu ul {
+        gap: 10px;
+    }
+    .main-menu ul li a {
+        font-size: 12px;
+    }
+    .common-button {
+        padding: 10px 25px;
+        font-size: 12px;
+    }
+    .common-button:hover {
+        box-shadow: 1px 1px 6px 1px #007F5F;
+    }
+    /* ========= navbar end ========== */
+    /* ========= banner start ========== */
+    #banner {
+        padding: 35px 0 50px 0;
+    }
+    #banner .banner-text h1 {
+        font-size: 30px;
+        font-weight: 600;
+        line-height: 45px;
+        width: fit-content;
+    }
+    #banner .banner-text p {
+        font-size: 12px;
+        font-weight: 400;
+        line-height: 20px;
+        margin: 15px 0 15px 0;
+        width: fit-content;
+    }
+    .banner-search {
+        margin-top: 20px;
+        padding: 10px 15px;
+    }
+    .banner-search .search-item {
+        display: flex;
+        flex-direction: column;
+    }
+    .banner-search .search-item .item {
+        padding: 3px 30px 3px 0;
+    }
+    .banner-search .search-item .item h4 {
+        font-size: 17px;
+        line-height: 20px;
+    }
+    .banner-search .search-item .item h4 .search-text {
+        padding: 0 10px 0 10px;
+    }
+    .banner-search .search-item .item input {
+        font-size: 12px;
+        line-height: 19px;
+    }
+    .banner-search .search-item .search-button {
+        border-radius: 25px;
+        padding: 10px 125px;
+    }
+    .common-heading {
+        padding: 35px 0;
+    }
+    /* ========= banner end ========== */
+    /* ========= benefit start ========== */
+    .common-heading h2 {
+        font-size: 18px;
+    }
+    .common-heading p {
+        font-size: 12px;
+        padding-top: 5px;
+        line-height: 20px;
+    }
+    #benefit .benefit-item {
+        padding: 25px 45px 15px 45px;
+    }
+    #benefit .benefit-item .icon {
+        padding: 14px 18px;
+    }
+    .sub-heading {
+        padding: 10px 0 0px 0;
+        font-size: 18px;
+        line-height: 20px;
+    }
+    #benefit .benefit-item p {
+        font-size: 12px;
+        line-height: 20px;
+    }
+    /* ========= benefit end ========== */
+    /* ========= destination start ========== */
+    .destination-slider {
+        margin-top: -30px;
+    }
+    /* ========= destination end ========== */
+    /* ========= number counter start ========== */
+    #count {
+        margin-top: 30px;
+    }
+    .discover-checks {
+        padding: 30px 0;
+    }
+    .common-sub-heading {
+        font-size: 20px;
+        padding-bottom: 0px;
+    }
+    #count p {
+        font-size: 12px;
+        line-height: 20px;
+    }
+    p {
+        font-size: 12px;
+    }
+    .discover-checks button {
+        margin-top: 0px;
+    }
+    .counter-items {
+        padding: 10px 0;
+    }
+    .counter-item .count-item .count-icon {
+        padding: 16px 15px;
+    }
+    .counter-item .count-item h4 {
+        font-size: 28px;
+        margin-top: 8px;
+    }
+    #count .counter-item .count-item p {
+        font-size: 16px;
+    }
+    #count p {
+        font-size: 12px;
+        line-height: 15px;
+    }
+    .counter-item {
+        padding-bottom: 15px;
+    }
+    .counter-item .count-item {
+        margin: 0 25px;
+    }
+    /* ========= number counter end ========== */
+    /* ========= facility start ========== */
+    #facility {
+        padding: 30px 0;
+    }
+    .facility-text {
+        padding: 0px 0 0px 0;
+        width: 290px;
+    }
+    .facility-text p {
+        font-size: 12px;
+        line-height: 20px;
+    }
+    .facility-img {
+        margin: 15px 0 0;
+    }
+    .recommend {
+        width: 220px;
+        top: 210px;
+    }
+    .facility-check i {
+        line-height: 20px;
+        padding-right: 6px;
+    }
+    .facility-check p {
+        font-size: 12px;
+        line-height: 20px;
+    }
+    #facility .facility-item:nth-child(3) .facility-text {
+        padding-top: 0px;
+    }
+    .facility-item .facility-accordion {
+        width: 295px;
+    }
+    .facility-item .accordion-item .accordion-body {
+        font-size: 12px;
+        line-height: 20px;
+    }
+    .facility-item .facility-img .facility-msg {
+        top: 180px;
+        left: 0px;
+        width: 205px;
+    }
+    /* ========= facility end ========== */
+    /* ========= explore start ========== */
+    .explore-heading {
+        font-size: 20px;
+    }
+    .explore-text {
+        font-size: 12px;
+        line-height: 20px;
+        margin-top: 0px;
+        margin-bottom: 10px;
+    }
+    .nav-tabs .nav-link {
+        padding: 8px 13px;
+        font-size: 12px;
+    }
+    .tab-slider .slider-item {
+        margin: 25px 20px 0;
+    }
+    /* ========= explore end ========== */
+    /* ========= testimonial start ========== */
+    #testimonial {
+        margin-top: 35px;
+    }
+    .testimonial-images {
+        display: none;
+    }
+    .testimonial-text h2 {
+        font-size: 20px;
+    }
+    .testimonial-text i {
+        font-size: 22px;
+        margin: 0px 0 10px;
+    }
+    .testimonial-text p {
+        font-size: 12px;
+        line-height: 20px;
+    }
+    /* ========= testimonial end ========== */
+    /* ========= about start ========== */
+    .subscribe-item {
+        padding: 30px 0;
+    }
+    .subscribe-text {
+        width: 290px;
+    }
+    .subscribe-text h2 {
+        font-size: 20px;
+    }
+    .subscribe-text p {
+        font-size: 12px;
+        line-height: 20px;
+    }
+    .subscribe-input {
+        width: 290px;
+        flex-direction: column;
+    }
+    /* ========= about end ========== */
+    /* ========= footer start ========== */
+    #footer {
+        padding: 30px 0 30px;
+    }
+    .footer-contact .footer-logo {
+        width: 170px;
+    }
+    .footer-contact .footer-social {
+        padding: 0px 0 10px;
+        justify-content: space-around;
+    }
+    .footer-contact .footer-social img {
+        height: 30px;
+        width: 30px;
+    }
+    .footer-contact .contact-info p {
+        font-size: 12px;
+        line-height: 20px;
+    }
+    .footer-item {
+        padding: -1px 100px;
+        text-align: center;
+    }
+    .footer-sub-heading {
+        font-size: 19px;
+    }
+    .footer-list p {
+        font-size: 12px;
+        line-height: 25px;
+    }
+    /* ========= footer end ========== */
+}
+@media (min-width: 576px) and (max-width: 767px) {
+    /* ========= navbar start ========== */
+    .main-menu {
+        padding: 15px 0 !important;
+    }
+    .main-logo {
+        width: 130px;
+    }
+    .navbar-collapse {
+        text-align: center;
+    }
+    .main-menu ul {
+        gap: 10px;
+    }
+    .main-menu ul li a {
+        font-size: 12px;
+    }
+    .common-button {
+        padding: 10px 25px;
+        font-size: 12px;
+    }
+    .common-button:hover {
+        box-shadow: 1px 1px 6px 1px #007F5F;
+    }
+    /* ========= navbar end ========== */
+    /* ========= banner start ========== */
+    #banner {
+        padding: 35px 0 50px 0;
+    }
+    #banner .banner-text h1 {
+        font-size: 30px;
+        font-weight: 600;
+        line-height: 45px;
+        width: fit-content;
+    }
+    #banner .banner-text p {
+        font-size: 12px;
+        font-weight: 400;
+        line-height: 20px;
+        margin: 15px 0 15px 0;
+        width: fit-content;
+    }
+    .banner-button {
+        display: flex;
+        justify-content: center;
+    }
+    .banner-search {
+        width: 270px;
+        margin: 20px auto;
+    }
+    .banner-search .search-item {
+        display: flex;
+        flex-direction: column;
+        width: 180px;
+    }
+    .banner-search .search-item .item {
+        padding: 3px 5px 3px 0;
+    }
+    .banner-search .search-item .item h4 {
+        font-size: 17px;
+        line-height: 20px;
+    }
+    .banner-search .search-item .item h4 .search-text {
+        padding: 0 10px 0 10px;
+    }
+    .banner-search .search-item .item input {
+        font-size: 12px;
+        line-height: 19px;
+    }
+    .banner-search .search-item .search-button {
+        padding: 10px 111px;
+    }
+    .common-heading {
+        padding: 35px 0;
+    }
+    /* ========= banner end ========== */
+    /* ========= benefit start ========== */
+    .common-heading h2 {
+        font-size: 18px;
+    }
+    .common-heading p {
+        font-size: 12px;
+        padding-top: 5px;
+        line-height: 20px;
+    }
+    #benefit .benefit-item .icon {
+        margin: 0 auto;
+    }
+    .sub-heading {
+        text-align: center;
+    }
+    #benefit .benefit-item p {
+        text-align: center;
+    }
+    #benefit .benefit-item {
+        padding: 25px 130px 15px;
+    }
+    #benefit .benefit-item .icon {
+        padding: 14px 18px;
+    }
+    .sub-heading {
+        padding: 10px 0 0px 0;
+        font-size: 18px;
+        line-height: 20px;
+    }
+    #benefit .benefit-item p {
+        font-size: 12px;
+        line-height: 20px;
+    }
+    /* ========= benefit end ========== */
+    /* ========= destination start ========== */
+    .destination-slider {
+        margin-top: -30px;
+    }
+    /* ========= destination end ========== */
+    /* ========= number counter start ========== */
+    #count {
+        margin-top: 30px;
+    }
+    .discover-checks {
+        padding: 30px 0;
+    }
+    .discover-checks .checks i {
+        line-height: 20px;
+    }
+    .common-sub-heading {
+        font-size: 20px;
+        padding-bottom: 0px;
+    }
+    #count p {
+        font-size: 12px;
+        line-height: 20px;
+    }
+    p {
+        font-size: 12px;
+    }
+    .discover-checks button {
+        margin-top: 0px;
+    }
+    .counter-items {
+        padding: 10px 0;
+    }
+    .counter-item .count-item .count-icon {
+        padding: 16px 15px;
+    }
+    .counter-item .count-item h4 {
+        font-size: 28px;
+        margin-top: 8px;
+    }
+    #count .counter-item .count-item p {
+        font-size: 16px;
+    }
+    #count p {
+        font-size: 12px;
+        line-height: 15px;
+    }
+    .counter-item {
+        padding-bottom: 15px;
+    }
+    .counter-item .count-item {
+        margin: 0 25px;
+    }
+    /* ========= number counter end ========== */
+    /* ========= facility start ========== */
+    #facility {
+        padding: 30px 0;
+    }
+    .facility-text {
+        padding: 0px 0 0px 0;
+    }
+    .facility-text p {
+        font-size: 12px;
+        line-height: 20px;
+    }
+    .facility-img {
+        margin: 15px 0 0;
+    }
+    .recommend {
+        width: 275px;
+        top: 365px;
+    }
+    .facility-check i {
+        line-height: 20px;
+        padding-right: 6px;
+    }
+    .facility-check p {
+        font-size: 12px;
+        line-height: 20px;
+    }
+    #facility .facility-item:nth-child(3) .facility-text {
+        padding-top: 0px;
+    }
+    .facility-item .facility-accordion {
+        width: fit-content;
+    }
+    .facility-item .accordion-item .accordion-body {
+        font-size: 12px;
+        line-height: 20px;
+    }
+    .facility-item .facility-img .facility-msg {
+        top: 305px;
+        left: 30px;
+        width: 235px;
+    }
+    /* ========= facility end ========== */
+    /* ========= explore start ========== */
+    .explore-heading {
+        font-size: 20px;
+    }
+    .explore-text {
+        font-size: 12px;
+        line-height: 20px;
+        margin-top: 0px;
+        margin-bottom: 10px;
+    }
+    .nav-tabs .nav-link {
+        padding: 8px 13px;
+        font-size: 12px;
+    }
+    .tab-slider .slider-item {
+        margin: 25px 20px 0;
+    }
+    /* ========= explore end ========== */
+    /* ========= testimonial start ========== */
+    #testimonial {
+        margin-top: 35px;
+    }
+    .testimonial-images {
+        display: none;
+    }
+    .testimonial-text h2 {
+        font-size: 20px;
+    }
+    .testimonial-text i {
+        font-size: 22px;
+        margin: 0px 0 10px;
+    }
+    .testimonial-text p {
+        font-size: 12px;
+        line-height: 20px;
+    }
+    /* ========= testimonial end ========== */
+    /* ========= about start ========== */
+    .subscribe-item {
+        padding: 30px 0;
+    }
+    .subscribe-text {
+        width: 290px;
+    }
+    .subscribe-text h2 {
+        font-size: 20px;
+    }
+    .subscribe-text p {
+        font-size: 12px;
+        line-height: 20px;
+    }
+    .subscribe-input {
+        width: 290px;
+        flex-direction: column;
+    }
+    /* ========= about end ========== */
+    /* ========= footer start ========== */
+    #footer {
+        padding: 30px 0;
+    }
+    .footer-contact {
+        align-items: center;
+        display: flex;
+        flex-direction: column;
+    }
+    .footer-contact .footer-logo {
+        width: 170px;
+    }
+    .footer-contact .footer-social {
+        gap: 20px;
+    }
+    .footer-contact .footer-social img {
+        height: 30px;
+        width: 30px;
+    }
+    .footer-contact .contact-info p {
+        font-size: 12px;
+        line-height: 20px;
+    }
+    .footer-item {
+        padding: -1px 100px;
+        text-align: center;
+    }
+    .footer-sub-heading {
+        font-size: 19px;
+    }
+    .footer-list p {
+        font-size: 12px;
+        line-height: 25px;
+    }
+    /* ========= footer end ========== */
+}
+@media (min-width: 768px) and (max-width: 991px) {
+    /* ========= navbar start ========== */
+    .navbar-collapse {
+        text-align: center;
+    }
+    .main-menu ul {
+        gap: 15px;
+    }
+    .common-button {
+        padding: 15px 35px;
+        font-size: 16px;
+    }
+    .common-button:hover {
+        box-shadow: 1px 1px 6px 1px #007F5F;
+    }
+    /* ========= navbar end ========== */
+    /* ========= banner start ========== */
+    #banner {
+        padding: 35px 0 50px 0;
+    }
+    .banner-text {
+        width: 100%;
+        text-align: center;
+    }
+    #banner .banner-text h1 {
+        font-size: 30px;
+        font-weight: 600;
+        line-height: 45px;
+        width: fit-content;
+    }
+    #banner .banner-text p {
+        font-size: 12px;
+        font-weight: 400;
+        line-height: 20px;
+        margin: 15px 0 15px 0;
+        width: fit-content;
+    }
+    .banner-button {
+        display: flex;
+        justify-content: center;
+    }
+    .banner-search .search-item .item {
+        padding: 11px 0px 11px 0;
+    }
+    .banner-search .search-item .item h4 {
+        font-size: 17px;
+        line-height: 20px;
+    }
+    .banner-search .search-item .item h4 .search-text {
+        padding: 0 10px 0 10px;
+    }
+    .banner-search .search-item .item input {
+        font-size: 12px;
+        line-height: 19px;
+    }
+    .banner-search .search-item .search-button {
+        padding: 10px 50px;
+    }
+    .common-heading {
+        margin: 0 auto;
+        padding: 100px 60px 50px;
+    }
+    /* ========= banner end ========== */
+    /* ========= benefit start ========== */
+    .common-heading h2 {
+        font-size: 30px;
+    }
+    .common-heading p {
+        font-size: 14px;
+        padding-top: 5px;
+        line-height: 30px;
+    }
+    /* ========= benefit end ========== */
+    /* ========= destination start ========== */
+    .destination-slider {
+        margin-top: -30px;
+    }
+    /* ========= destination end ========== */
+    /* ========= number counter start ========== */
+    #count {
+        margin-top: 30px;
+    }
+    .discover-checks {
+        padding: 30px 0;
+    }
+    .discover-checks .checks i {
+        line-height: 20px;
+    }
+    .common-sub-heading {
+        font-size: 20px;
+        padding-bottom: 0px;
+    }
+    #count p {
+        font-size: 12px;
+        line-height: 20px;
+    }
+    p {
+        font-size: 12px;
+    }
+    .discover-checks button {
+        margin-top: 0px;
+    }
+    .counter-items {
+        padding: 10px 0;
+    }
+    .counter-item .count-item .count-icon {
+        padding: 16px 15px;
+    }
+    .counter-item .count-item h4 {
+        font-size: 28px;
+        margin-top: 8px;
+    }
+    #count .counter-item .count-item p {
+        font-size: 16px;
+    }
+    #count p {
+        font-size: 12px;
+        line-height: 15px;
+    }
+    .counter-item {
+        padding-bottom: 15px;
+    }
+    .counter-item .count-item {
+        margin: 0 25px;
+    }
+    /* ========= number counter end ========== */
+    /* ========= facility start ========== */
+    #facility {
+        padding: 30px 0;
+    }
+    .facility-text {
+        padding: 0px 0 0px 0;
+    }
+    .facility-text p {
+        font-size: 12px;
+        line-height: 20px;
+    }
+    .facility-img {
+        margin: 15px 0 0;
+    }
+    .recommend {
+        width: 275px;
+        top: 365px;
+    }
+    .facility-check i {
+        line-height: 20px;
+        padding-right: 6px;
+    }
+    .facility-check p {
+        font-size: 12px;
+        line-height: 20px;
+    }
+    #facility .facility-item:nth-child(3) .facility-text {
+        padding-top: 0px;
+    }
+    .facility-item .facility-accordion {
+        width: fit-content;
+    }
+    .facility-item .accordion-item .accordion-body {
+        font-size: 12px;
+        line-height: 20px;
+    }
+    .facility-item .facility-img .facility-msg {
+        top: 305px;
+        left: 30px;
+        width: 235px;
+    }
+    /* ========= facility end ========== */
+    /* ========= explore start ========== */
+    .explore-heading {
+        font-size: 20px;
+    }
+    .explore-text {
+        font-size: 12px;
+        line-height: 20px;
+        margin-top: 0px;
+        margin-bottom: 10px;
+    }
+    .nav-tabs .nav-link {
+        padding: 8px 13px;
+        font-size: 12px;
+    }
+    .tab-slider .slider-item {
+        margin: 25px 20px 0;
+    }
+    /* ========= explore end ========== */
+    /* ========= testimonial start ========== */
+    #testimonial {
+        margin-top: 35px;
+    }
+    .testimonial-images {
+        display: none;
+    }
+    .testimonial-text h2 {
+        font-size: 20px;
+    }
+    .testimonial-text i {
+        font-size: 22px;
+        margin: 0px 0 10px;
+    }
+    .testimonial-text p {
+        font-size: 12px;
+        line-height: 20px;
+    }
+    /* ========= testimonial end ========== */
+    /* ========= about start ========== */
+    .subscribe-item {
+        padding: 30px 0;
+    }
+    .subscribe-text {
+        width: 290px;
+    }
+    .subscribe-text h2 {
+        font-size: 20px;
+    }
+    .subscribe-text p {
+        font-size: 12px;
+        line-height: 20px;
+    }
+    .subscribe-input {
+        width: 290px;
+        flex-direction: column;
+    }
+    /* ========= about end ========== */
+    /* ========= footer start ========== */
+    #footer {
+        padding: 30px 0;
+    }
+    .footer-contact {
+        align-items: center;
+        display: flex;
+        flex-direction: column;
+    }
+    .footer-contact .footer-logo {
+        width: 170px;
+    }
+    .footer-contact .footer-social {
+        gap: 20px;
+    }
+    .footer-contact .footer-social img {
+        height: 30px;
+        width: 30px;
+    }
+    .footer-contact .contact-info p {
+        font-size: 12px;
+        line-height: 20px;
+    }
+    .footer-item {
+        padding: -1px 100px;
+        text-align: center;
+    }
+    .footer-sub-heading {
+        font-size: 19px;
+    }
+    .footer-list p {
+        font-size: 12px;
+        line-height: 25px;
+    }
+    /* ========= footer end ========== */
+}
+@media (min-width: 992px) and (max-width: 1199px) { }
+@media (min-width: 1200px) and (max-width: 1399px) { }
+@media (min-width: 1400px){ }
